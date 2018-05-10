@@ -1,0 +1,4 @@
+﻿
+<div class="navbar-text navbar-right">
+	@(User.Identity.IsAuthenticated ? User.Identity?.Name : "尚未登入")
+</div>
